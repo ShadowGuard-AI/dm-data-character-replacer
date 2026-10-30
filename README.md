@@ -11,10 +11,10 @@ Replaces specific characters in data fields with a specified replacement charact
 
 ## Parameters
 - `-h`: Show help message and exit
-- `-c`: No description provided
+- `-c`: The character set to replace (regular expression). Defaults to '\d' (digits).
 - `-r`: The replacement character. Defaults to 
 - `-g`: Replace all occurences of the matching characters, otherwise only the first.
-- `-i`: No description provided
+- `-i`: Ignore case during character matching (useful for letters)
 - `-v`: Enable verbose logging.
 - `-s`: Enable secure processing that avoids printing the original input data if possible.
 
