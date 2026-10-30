@@ -66,10 +66,15 @@ def replace_characters(input_data, characters, replacement, global_replace, igno
         else:
             regex = re.compile(characters)
 
+        # The replacement goes in through a function so it is treated as
+        # literal text. Passed as a plain string, re.sub parses it as a
+        # template: a replacement like \1 either raised a group reference
+        # error or silently expanded to a captured group, and neither is
+        # what a "replacement character" argument promises.
         if global_replace:
-            modified_data = regex.sub(replacement, input_data)
+            modified_data = regex.sub(lambda _match: replacement, input_data)
         else:
-            modified_data = regex.sub(replacement, input_data, count=1)
+            modified_data = regex.sub(lambda _match: replacement, input_data, count=1)
     except re.error as e:
         logging.error(f"Invalid regular expression: {e}")
         raise
