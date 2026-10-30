@@ -1,3 +1,5 @@
+![Banner](banner.png)
+
 # dm-data-character-replacer
 Replaces specific characters in data fields with a specified replacement character (e.g., replacing all digits in a phone number with 'X'). Provides options for targeted character sets and replacement strategies. - Focused on Tools designed to generate or mask sensitive data with realistic-looking but meaningless values
 
