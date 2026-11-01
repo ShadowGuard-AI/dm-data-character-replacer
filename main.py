@@ -71,6 +71,10 @@ def replace_characters(input_data, characters, replacement, global_replace, igno
         # template: a replacement like \1 either raised a group reference
         # error or silently expanded to a captured group, and neither is
         # what a "replacement character" argument promises.
+        # Without -g the count is 1: only the first match in the
+        # string is replaced. For a masking tool that default is easy
+        # to misread from the output, because a partly masked value
+        # looks like a finished one at a glance.
         if global_replace:
             modified_data = regex.sub(lambda _match: replacement, input_data)
         else:
@@ -79,6 +83,10 @@ def replace_characters(input_data, characters, replacement, global_replace, igno
         logging.error(f"Invalid regular expression: {e}")
         raise
 
+    # The security flag guards only this debug line. Debug logging is
+    # off unless -v was passed, so without -v the flag changes nothing
+    # observable, and with -v the modified value below is still logged:
+    # what is protected is the original text, not the result.
     if security:
         logging.info("Secure processing enabled.  The original input data has not been printed to the logs.")
     else:
