@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="The knot record wall in three bands: standing stone shadows sliding across the back wall in the far band, pendant strings settling onto the main cord while astrolabe rings turn to alignment in the middle band, and a seal ring carried past the frame edge in a keeper hand in the near band">
+<rect width="900" height="300" fill="#828a8c"/>
+<rect x="0" y="0" width="900" height="104" fill="#767f82"/>
+<g fill="#3c3a36" opacity="0.35">
+<polygon points="120,104 330,104 470,20 380,20"><animate attributeName="points" values="120,104 330,104 470,20 380,20; 190,104 400,104 540,20 450,20; 190,104 400,104 540,20 450,20" keyTimes="0; 0.6; 1" dur="14s" repeatCount="indefinite"/></polygon>
+<polygon points="420,104 560,104 660,28 590,28"><animate attributeName="points" values="420,104 560,104 660,28 590,28; 480,104 620,104 720,28 650,28; 480,104 620,104 720,28 650,28" keyTimes="0; 0.6; 1" dur="14s" repeatCount="indefinite"/></polygon>
+</g>
+<rect x="52" y="18" width="26" height="86" fill="#6e7476"/>
+<rect x="0" y="104" width="900" height="108" fill="#6b4a2b"/>
+<line x1="30" y1="140" x2="870" y2="140" stroke="#4a321c" stroke-width="14"/>
+<line x1="30" y1="136" x2="870" y2="136" stroke="#86603a" stroke-width="5"/>
+<g stroke="#b08a54" stroke-width="5">
+<g><line x1="150" y1="146" x2="150" y2="238"/><animateTransform attributeName="transform" type="translate" values="0 -34; 0 0; 0 0" keyTimes="0; 0.35; 1" dur="9s" repeatCount="indefinite"/></g>
+<g><line x1="300" y1="146" x2="300" y2="252"/><animateTransform attributeName="transform" type="translate" values="0 -34; 0 -34; 0 0; 0 0" keyTimes="0; 0.25; 0.55; 1" dur="9s" repeatCount="indefinite"/></g>
+<g><line x1="450" y1="146" x2="450" y2="230"/><animateTransform attributeName="transform" type="translate" values="0 -34; 0 -34; 0 -34; 0 0; 0 0" keyTimes="0; 0.3; 0.5; 0.75; 1" dur="9s" repeatCount="indefinite"/></g>
+<g><line x1="600" y1="146" x2="600" y2="246"/><animateTransform attributeName="transform" type="translate" values="0 -34; 0 -34; 0 -34; 0 -34; 0 0" keyTimes="0; 0.35; 0.55; 0.75; 0.9" dur="9s" repeatCount="indefinite"/></g>
+<g><line x1="740" y1="146" x2="740" y2="226"/><animateTransform attributeName="transform" type="translate" values="0 -34; 0 0; 0 0" keyTimes="0; 0.45; 1" dur="11s" repeatCount="indefinite"/></g>
+</g>
+<g fill="#6b4a2b"><circle cx="150" cy="182" r="9"/><circle cx="150" cy="216" r="9"/><circle cx="300" cy="196" r="9"/><circle cx="300" cy="202" r="9"/><circle cx="450" cy="176" r="9"/><circle cx="600" cy="210" r="9"/><circle cx="740" cy="188" r="9"/><circle cx="740" cy="206" r="9"/></g>
+<g fill="none" stroke="#a8843a" stroke-width="4">
+<g><circle cx="690" cy="176" r="24"/><line x1="690" y1="152" x2="690" y2="200"/><line x1="666" y1="176" x2="714" y2="176"/><animateTransform attributeName="transform" type="rotate" values="0 690 176; 38 690 176; 38 690 176" keyTimes="0; 0.55; 1" dur="12s" repeatCount="indefinite"/></g>
+<g><circle cx="210" cy="180" r="19"/><line x1="210" y1="161" x2="210" y2="199"/><line x1="191" y1="180" x2="229" y2="180"/><animateTransform attributeName="transform" type="rotate" values="0 210 180; -30 210 180; -30 210 180" keyTimes="0; 0.5; 1" dur="12s" repeatCount="indefinite"/></g>
+</g>
+<rect x="0" y="212" width="900" height="88" fill="#5c5952"/>
+<g>
+<animateTransform attributeName="transform" type="translate" values="-90 0; -90 0; 60 0; 60 0" keyTimes="0; 0.55; 0.8; 1" dur="16s" repeatCount="indefinite"/>
+<circle cx="36" cy="252" r="17" fill="none" stroke="#2c2e34" stroke-width="6"/>
+<path d="M48 240 q22 -8 30 4 q-14 4 -20 10 q-8 2 -14 -2 Z" fill="#c9a06a"/>
+</g>
+</svg>

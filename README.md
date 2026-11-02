@@ -1,13 +1,33 @@
+![Introduction banner: a heavy main cord close and low, pendant strings with knots bunched at uneven heights, astrolabes and cut stone in the middle distance, amber light from a high window, no name anywhere](intro-banner.png)
+
+# dm-data-character-replacer
+
+Title block: the name above is set in Tenada in iron on a sea grey plate, as a chronicle entry, counted in the season when the light comes in low through the high window, with a small seal image at the left of the block.
+
+![Logo](logo.png)
+
 ![Banner](banner.png)
+
+![Animated scene](scene.svg)
+
+![Major separator](sep-heavy.svg)
 
 # dm-data-character-replacer
 Replaces specific characters in data fields with a specified replacement character (e.g., replacing all digits in a phone number with 'X'). Provides options for targeted character sets and replacement strategies. - Focused on Tools designed to generate or mask sensitive data with realistic-looking but meaningless values
 
+![Major separator](sep-heavy.svg)
+
 ## Install
 `git clone https://github.com/ShadowStrikeHQ/dm-data-character-replacer`
 
+![Minor separator](sep-light.svg)
+
 ## Usage
 `./dm-data-character-replacer [params]`
+
+> Keeper note: global replacement is off unless its control is given, so a plain run touches the first match only.
+
+![Minor separator](sep-light.svg)
 
 ## Parameters
 - `-h`: Show help message and exit
@@ -18,5 +38,17 @@ Replaces specific characters in data fields with a specified replacement charact
 - `-v`: Enable verbose logging.
 - `-s`: Enable secure processing that avoids printing the original input data if possible.
 
+> Keeper note: the replacement character default is not printed in the source. The line above ends after the words Defaults to and names nothing.
+
+> Keeper note: secure mode promises avoidance only where possible. It is not printed as a guarantee, and this page does not dress it up as one.
+
+![Minor separator](sep-light.svg)
+
 ## License
 Copyright (c) ShadowStrikeHQ
+
+![Major separator](sep-heavy.svg)
+
+## Keeper notes gathered on the wall
+
+The main button of this re-skin reads Replace the Chosen Characters. Its set field label reads Character Set, as a Regular Expression. Its replacement field label reads Replacement Character. Its headings read One Character In, One Character Out, First Match Unless Told Otherwise, and The Default the Source Leaves Blank. Closing: the spare coiled cord on the tally shelf is lifted and hung as a fresh record, empty of knots. The wall is full, the count is kept, and the next field of data has somewhere to go.
