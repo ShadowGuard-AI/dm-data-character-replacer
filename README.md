@@ -18,34 +18,35 @@ Replaces specific characters in data fields with a specified replacement charact
 ![Major separator](sep-heavy.svg)
 
 ## Install
-`git clone https://github.com/ShadowStrikeHQ/dm-data-character-replacer`
+`git clone https://github.com/ShadowGuard-AI/dm-data-character-replacer`
 
 ![Minor separator](sep-light.svg)
 
 ## Usage
-`./dm-data-character-replacer [params]`
+`python3 main.py INPUT_DATA [options]`
 
 > Keeper note: global replacement is off unless its control is given, so a plain run touches the first match only.
 
 ![Minor separator](sep-light.svg)
 
 ## Parameters
+- `input_data`: The input data string to process. Required.
 - `-h`: Show help message and exit
-- `-c`: The character set to replace (regular expression). Defaults to '\d' (digits).
-- `-r`: The replacement character. Defaults to 
-- `-g`: Replace all occurences of the matching characters, otherwise only the first.
-- `-i`: Ignore case during character matching (useful for letters)
-- `-v`: Enable verbose logging.
-- `-s`: Enable secure processing that avoids printing the original input data if possible.
+- `-c`, `--characters`: The character set to replace (regular expression). Defaults to '\d' (digits).
+- `-r`, `--replacement`: The replacement character. Defaults to 'X'.
+- `-g`, `--global_replace`: Replace all occurences of the matching characters, otherwise only the first.
+- `-i`, `--ignore_case`: Ignore case during character matching (useful for letters)
+- `-v`, `--verbose`: Enable verbose logging.
+- `-s`, `--security`: Enable secure processing that avoids printing the original input data if possible.
 
-> Keeper note: the replacement character default is not printed in the source. The line above ends after the words Defaults to and names nothing.
+> Keeper note, corrected in this wave: the line above formerly ended after Defaults to and named nothing; the parser default is 'X', now filled in.
 
 > Keeper note: secure mode promises avoidance only where possible. It is not printed as a guarantee, and this page does not dress it up as one.
 
 ![Minor separator](sep-light.svg)
 
 ## License
-Copyright (c) ShadowStrikeHQ
+This project is released under the license in the [LICENSE](LICENSE) file. See LICENSE for details.
 
 ![Major separator](sep-heavy.svg)
 
